@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CaesarCipher1
+comment1.params=key
+comment1.target=CaesarCipher1(int)
+comment2.params=input
+comment2.target=java.lang.String\ encrypt(java.lang.String)
+comment3.params=input\ key
+comment3.target=java.lang.String\ decrypt(java.lang.String,\ int)
+comment4.params=encrypted
+comment4.target=int[]\ countLetters(java.lang.String)
+comment5.params=vals
+comment5.target=int\ maxIndex(int[])
+comment6.params=message\ start
+comment6.target=java.lang.String\ halfOfString(java.lang.String,\ int)
+comment6.text=private\ int\ getKey(String\ s){\ \r\n\ \ \ \ \ \ \ \ int[]\ letterFreqs\ \=\ countLetters(s);\ \r\n\ \ \ \ \ \ \ \ int\ maxindex\ \=\ maxIndex(letterFreqs);\ \r\n\ \ \ \ \ \ \ \ int\ dkey\ \=\ maxindex\ -\ 4;\r\n\ \ \ \ \ \ \ \ if\ (maxindex\ <\ 4)\ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ dkey\ \=\ 26\ -\ (4-maxindex);\ \r\n\ \ \ \ \ \ \ \ }\ \r\n\ \ \ \ \ \ \ \ return\ dkey;\ \r\n}
+comment7.params=str1
+comment7.target=java.lang.String\ breakCaesarCipher(java.lang.String)
+comment8.params=
+comment8.target=void\ TestCaesarCipher()
+comment9.params=
+comment9.target=void\ simpleTest()
+numComments=10
